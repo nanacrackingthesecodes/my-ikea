@@ -1,6 +1,6 @@
-import "./Recommendations.css";
+import "./Recomendation.css";
 
-function Ideas() {
+function Recomendation() {
   const topTags = [
     "НАЗВА НАБОРУ",
     "НАЗВА НАБОРУ",
@@ -31,62 +31,62 @@ function Ideas() {
   ];
 
   return (
-    <section className="recomendations">
-    <h2 className="recomendations-title">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</h2>
-    <div className="recomendations-tags">
+    <section className="recomendation">
+    <h2 className="recomendation-title">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</h2>
+    <div className="recomendation-tags">
       {topTags.map((tag, index) => (
-        <span className="recomendations-tag" key={index}>
+        <span className="recomendation-tag" key={index}>
           {tag}
         </span>
       ))}
     </div>
-    <div className="recomendations-grid">
+    <div className="recomendation-grid">
       <div className="recomendation-item">
         <div className="recomendation-card recomendation-card-1">
           <img src={images[0]} alt="Рекомендація 1" />
-          <div className="recomendations-arrow">↗</div>
+          <div className="recomendation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
       <div className="recomendation-item">
         <div className="recomendation-card recomendation-card-2">
           <img src={images[1]} alt="Рекомендація 2" />
-          <div className="recomendations-arrow">↗</div>
+          <div className="recomendation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
       <div className="recomendation-item">
         <div className="recomendation-card recomendation-card-3">
           <img src={images[2]} alt="Рекомендація 3" />
-          <div className="recomendations-arrow">↗</div>
+          <div className="recomendation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
       <div className="recomendation-item">
         <div className="recomendation-card recomendation-card-4">
           <img src={images[3]} alt="Рекомендація 4" />
-          <div className="recomendations-arrow">↗</div>
+          <div className="recomendation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
       <div className="recomendation-item recomendation-item-5">
         <div className="recomendation-card recomendation-card-5">
           <img src={images[4]} alt="Рекомендація 5" />
-          <div className="recomendations-arrow">↗</div>
+          <div className="recomendation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
       <div className="recomendation-item">
         <div className="recomendation-card recomendation-card-6">
           <img src={images[5]} alt="Рекомендація 6" />
-          <div className="recommndations-arrow">↗</div>
+          <div className="recommndation-arrow">↗</div>
         </div>
         <p className="recomendation-name">НАЗВА НАБОРУ</p>
       </div>
     </div>
-    <div className="recomendations-tags recomendations-tags-bottom">
+    <div className="recomendation-tags recomendation-tags-bottom">
       {bottomTags.map((tag, index) => (
-        <span className="recomendations-tag" key={index}>
+        <span className="recomendation-tag" key={index}>
           {tag}
         </span>
       ))}
@@ -94,4 +94,4 @@ function Ideas() {
   </section>
 );
 }
-export default Recomendations;
+export default Recomendation;

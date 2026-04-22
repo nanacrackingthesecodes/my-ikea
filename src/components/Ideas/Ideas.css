@@ -1,41 +1,65 @@
-.info {
+.ideas {
     margin-top: 100px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 40px;
+    box-sizing: border-box;
   }
   
-  .info-title {
-    font-size: 20px;
+  .ideas-title {
+    width: 559px;
+    height: 50px;
+    margin-bottom: 40px;
+    padding: 10px 10px 10px 0;
+    font-size: 24px;
     font-weight: 600;
-    margin-bottom: 24px;
+    line-height: 1.2;
+    box-sizing: border-box;
   }
   
-  .info-wrapper {
+  .ideas-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 24px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: start;
   }
   
-  .info-image img {
+  .idea-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .idea-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 16px;
+    display: block;
+  }
+  .idea-card-1,
+  .idea-card-3,
+  .idea-card-5 {
+    height: 595px;
   }
   
-  .info-card {
-    background: #e9e9e9;
-    border-radius: 16px;
-    padding: 40px;
+  .idea-card-2,
+  .idea-card-4,
+  .idea-card-6 {
+    height: 439px;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
-  }
-  
-  .info-card h3 {
     font-size: 18px;
-    margin-bottom: 12px;
-  }
-  
-  .info-card p {
-    font-size: 14px;
-    line-height: 1.6;
+    line-height: 18px;
   }

@@ -1,4 +1,4 @@
-.recommendations {
+.recommendation {
     margin-top: 100px;
     max-width: 1180px;
     margin-left: auto;
@@ -7,26 +7,26 @@
     box-sizing: border-box;
   }
   
-  .recommendations-title {
+  .recommendation-title {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 1.2;
   }
   
-  .recommendations-tags {
+  .recommendation-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
     margin-bottom: 16px;
   }
   
-  .recommendations-tags-bottom {
+  .recommendation-tags-bottom {
     margin-top: 16px;
     margin-bottom: 0;
   }
   
-  .recommendations-tag {
+  .recommendation-tag {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -39,7 +39,7 @@
     white-space: nowrap;
   }
   
-  .recommendations-grid {
+  .recommendation-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
@@ -92,7 +92,7 @@
     text-transform: uppercase;
   }
   
-  .recommendations-arrow {
+  .recommendation-arrow {
     position: absolute;
     top: 14px;
     left: 14px;
