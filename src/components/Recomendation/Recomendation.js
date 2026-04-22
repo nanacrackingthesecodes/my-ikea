@@ -50,7 +50,6 @@ function Recomendation() {
             <img src={images[0]} alt="Рекомендація 1" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
 
         <div className="recommendation-item">
@@ -58,7 +57,6 @@ function Recomendation() {
             <img src={images[1]} alt="Рекомендація 2" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
 
         <div className="recommendation-item">
@@ -66,7 +64,6 @@ function Recomendation() {
             <img src={images[2]} alt="Рекомендація 3" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
 
         <div className="recommendation-item">
@@ -74,7 +71,6 @@ function Recomendation() {
             <img src={images[3]} alt="Рекомендація 4" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
 
         <div className="recommendation-item recommendation-item-5">
@@ -82,7 +78,6 @@ function Recomendation() {
             <img src={images[4]} alt="Рекомендація 5" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
 
         <div className="recommendation-item">
@@ -90,7 +85,6 @@ function Recomendation() {
             <img src={images[5]} alt="Рекомендація 6" />
             <div className="recommendation-arrow">↗</div>
           </div>
-          <p className="recommendation-name">НАЗВА НАБОРУ</p>
         </div>
       </div>
 

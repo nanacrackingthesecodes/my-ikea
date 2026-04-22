@@ -1,65 +1,74 @@
 .ideas {
     margin-top: 100px;
-    max-width: 1440px;
+    max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 40px;
+    padding: 0 20px;
     box-sizing: border-box;
   }
   
   .ideas-title {
-    width: 559px;
-    height: 50px;
-    margin-bottom: 40px;
-    padding: 10px 10px 10px 0;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 24px;
     line-height: 1.2;
-    box-sizing: border-box;
   }
-  
   .ideas-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 16px;
     align-items: start;
   }
   
-  .idea-card {
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden;
+  .ideas-item {
+    display: flex;
+    flex-direction: column;
   }
   
-  .idea-card img {
+  .ideas-item-5 {
+    margin-top: -118px;
+  }
+  .ideas-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+  }
+  
+  .ideas-card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
   }
-  .idea-card-1,
-  .idea-card-3,
-  .idea-card-5 {
-    height: 595px;
+  
+  .ideas-card-1,
+  .ideas-card-3 {
+    height: 478px;
   }
   
-  .idea-card-2,
-  .idea-card-4,
-  .idea-card-6 {
-    height: 439px;
+  .ideas-card-2 {
+    height: 360px;
+  }
+  .ideas-card-4,
+  .ideas-card-6 {
+    height: 355px;
   }
   
-  .arrow {
+  .ideas-card-5 {
+    height: 478px;
+  }
+  
+  .ideas-arrow {
     position: absolute;
-    top: 12px;
-    left: 12px;
+    top: 14px;
+    left: 14px;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #fff;
+    background: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    line-height: 18px;
-  }
+    font-size: 24px;
+    line-height: 1;
+  }  
