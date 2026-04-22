@@ -1,82 +1,41 @@
 .info {
     margin-top: 100px;
-    max-width: 1180px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 20px;
-    box-sizing: border-box;
   }
   
   .info-title {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     margin-bottom: 24px;
-    line-height: 1.2;
   }
-  .info-grid {
+  
+  .info-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    align-items: start;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
   }
   
-  .info-item {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .info-item-5 {
-    margin-top: -118px;
-  }
-  
-  .info-card {
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-  }
-  
-  .info-card img {
+  .info-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
-  }
-  .info-card-1,
-  .info-card-3 {
-    height: 478px;
+    border-radius: 16px;
   }
   
-  .info-card-2 {
-    height: 360px;
-  }
-  .info-card-4,
-  .info-card-6 {
-    height: 355px;
-  }
-  
-  .info-card-5 {
-    height: 478px;
-  }
-  
-  .info-name {
-    margin-top: 12px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.2;
-    text-transform: uppercase;
-  }
-  
-  .info-arrow {
-    position: absolute;
-    top: 14px;
-    left: 14px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #ffffff;
+  .info-card {
+    background: #e9e9e9;
+    border-radius: 16px;
+    padding: 40px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    font-size: 24px;
-    line-height: 1;
+  }
+  
+  .info-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .info-card p {
+    font-size: 14px;
+    line-height: 1.6;
   }
