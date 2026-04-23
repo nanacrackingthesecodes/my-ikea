@@ -19,7 +19,7 @@
 .info-wrapper {
   display: flex;
   width: 1300px;
-  gap: 16px;
+  gap:0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,25 +42,23 @@
 }
 
 .info-card-content {
-  width: 541px;
-  height: 255px;
-  padding: 80px 40px;
+  padding: 60px 40px;
 }
 
 .info-card h3 {
-  margin-top: 200px;
+  margin: 60px 0 16px 20px; 
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  font-display:left;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .info-card p {
-  margin: 0;
-  font-display: center;
+  margin: 0 0 0 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #000;
+  text-align: left;
 }
