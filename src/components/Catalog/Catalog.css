@@ -1,62 +1,57 @@
 .catalog {
-    margin-top: 80px;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .catalog-title {
-    width: 550px;
-    height: 29px;
-    margin-left: 221px;
-    margin-bottom: 40px;
-  
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 100%;
-    text-transform: uppercase;
-  }
-  
-  .catalog-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 161px);
-    column-gap: 24px;
-    row-gap: 40px;
-    margin-left:209px;
-    justify-content: start;
-  }
-  
-  .catalog-item {
-    width: 161px;
-  }
-  
-  .catalog-image-wrap {
-    width: 161px;
-    height: 191px;
-    position: relative;
-  }
-  
-  .catalog-item img {
-    width: 161px;
-    height: 191px;
-    object-fit: contain;
-    display: block;
-  }
-  
-  .catalog-item p {
-    width: 161px;
-    min-height: 35px;
-    margin-top: 12px;
-    border-radius: 30px;
-    padding: 9px 20px;
-    box-sizing: border-box;
-  
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 100%;
-    text-transform: uppercase;
-    text-align: center;
-    color: #000;
-  }
-  
+  margin-top: 80px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.catalog-title {
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.catalog-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 24px;
+  row-gap: 40px;
+}
+
+.catalog-item {
+  width: 100%;
+}
+
+.catalog-image-wrap {
+  width: 100%;
+  aspect-ratio: 161 / 191;
+  position: relative;
+}
+
+.catalog-item img {
+  width: 100%;
+  aspect-ratio: 161 / 191;
+  object-fit: contain;
+  display: block;
+}
+
+.catalog-item p {
+  width: 100%;
+  min-height: 35px;
+  margin-top: 12px;
+  border-radius: 30px;
+  padding: 9px 10px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
