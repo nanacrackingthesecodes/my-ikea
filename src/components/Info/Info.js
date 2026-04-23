@@ -10,12 +10,14 @@ function Info() {
           <img src="/laptop.jpg" alt="" />
         </div>
         <div className="info-card">
-          <h3>ВАЖЛИВА ІНФОРМАЦІЯ</h3>
-          <p>
-            lorem ipsum dolor sit amet consectetur. bibendum neque at em integer
-            integer. tempus a mi in enim dui rhoncus vulputate nulla et. ornare
-            sed cursus sed viverra.
-          </p>
+          <div className="info-card-content">
+            <h3>ВАЖЛИВА ІНФОРМАЦІЯ</h3>
+            <p>
+              lorem ipsum dolor sit amet consectetur. bibendum neque at em integer
+              integer. tempus a mi in enim dui rhoncus vulputate nulla et. ornare
+              sed cursus sed viverra.
+            </p>
+          </div>
         </div>
       </div>
     </section>

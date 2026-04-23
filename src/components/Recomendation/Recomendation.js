@@ -1,28 +1,6 @@
 import "./Recomendation.css";
 
 function Recomendation() {
-  const topTags = [
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-  ];
-
-  const bottomTags = [
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-    "НАЗВА НАБОРУ",
-  ];
-
   const images = [
     "/recomendation1.jpg",
     "/recomendation2.jpg",
@@ -35,14 +13,6 @@ function Recomendation() {
   return (
     <section className="recommendation">
       <h2 className="recommendation-title">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</h2>
-
-      <div className="recommendation-tags">
-        {topTags.map((tag, index) => (
-          <span className="recommendation-tag" key={index}>
-            {tag}
-          </span>
-        ))}
-      </div>
 
       <div className="recommendation-grid">
         <div className="recommendation-item">
@@ -86,14 +56,6 @@ function Recomendation() {
             <div className="recommendation-arrow">↗</div>
           </div>
         </div>
-      </div>
-
-      <div className="recommendation-tags recommendation-tags-bottom">
-        {bottomTags.map((tag, index) => (
-          <span className="recommendation-tag" key={index}>
-            {tag}
-          </span>
-        ))}
       </div>
     </section>
   );
